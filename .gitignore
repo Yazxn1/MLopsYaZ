@@ -1,0 +1,15 @@
+# Standard Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Data files
+data/*
+!data/.gitkeep
+
+# MLflow
+mlruns/
+mlflow-artifacts:/
+.mlflow-auth 
